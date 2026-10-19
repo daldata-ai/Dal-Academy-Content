@@ -1,21 +1,14 @@
-# Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
 env/
 .env
-
-# Jupyter
 .ipynb_checkpoints/
 *.sqlite
 *.db
-
-# Editors & OS
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
-
-# Office lock files
 ~$*
