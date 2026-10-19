@@ -2,9 +2,9 @@
 
 One-line subtitle describing the module.
 
-**Notebook:** [NN-module-name.ipynb](NN-module-name.ipynb)
-**Level:** Foundation | Intermediate | Advanced
-**Prerequisites:** [previous module](../)
+| Notebook | Level | Prerequisites |
+|---|---|---|
+| [NN-module-name.ipynb](NN-module-name.ipynb) | Foundation / Intermediate / Advanced | [previous module](../) |
 
 ## What you will be able to do
 

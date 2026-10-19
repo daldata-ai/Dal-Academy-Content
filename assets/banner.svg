@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Dal Academy · Data &amp; AI Learning Series">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4D091E"/>
+      <stop offset="0.45" stop-color="#7A0F31"/>
+      <stop offset="1" stop-color="#B91C4B"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#FFFFFF" fill-opacity="0.10"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="340" rx="24" fill="url(#bg)"/>
+  <rect x="760" width="520" height="340" fill="url(#grid)"/>
+  <circle cx="1130" cy="40" r="190" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+  <circle cx="1130" cy="40" r="120" fill="none" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="2"/>
+  <circle cx="1010" cy="300" r="70" fill="#FFFFFF" fill-opacity="0.05"/>
+
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" fill="#FFFFFF">
+    <text x="64" y="76" font-size="22" font-weight="800" letter-spacing="3">DAL <tspan fill-opacity="0.55">|</tspan> دال</text>
+    <text x="64" y="112" font-size="15" font-weight="600" letter-spacing="2.5" fill-opacity="0.72">DATA &amp; AI LEARNING SERIES</text>
+    <text x="62" y="192" font-size="64" font-weight="800">Dal Academy</text>
+    <text x="64" y="236" font-size="24" fill-opacity="0.85">Build data fluency that survives production.</text>
+
+    <g font-size="15" font-weight="700">
+      <rect x="64" y="268" width="110" height="34" rx="17" fill="#FFFFFF"/>
+      <text x="119" y="290" text-anchor="middle" fill="#7A0F31">Hands-on</text>
+      <rect x="186" y="268" width="170" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.14" stroke="#FFFFFF" stroke-opacity="0.35"/>
+      <text x="271" y="290" text-anchor="middle">Python notebooks</text>
+      <rect x="368" y="268" width="190" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.14" stroke="#FFFFFF" stroke-opacity="0.35"/>
+      <text x="463" y="290" text-anchor="middle">Production mindset</text>
+      <rect x="570" y="268" width="150" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.14" stroke="#FFFFFF" stroke-opacity="0.35"/>
+      <text x="645" y="290" text-anchor="middle">Runs in Colab</text>
+    </g>
+  </g>
+</svg>

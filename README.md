@@ -1,37 +1,63 @@
-# Dal Academy · Data & AI Learning Series
+<p align="center">
+  <img src="assets/banner.svg" alt="Dal Academy · Data & AI Learning Series" width="100%">
+</p>
 
-Course content for Dal Academy students: hands-on Jupyter notebooks covering data foundations, processing architectures, and production data engineering.
+<p align="center">
+  <a href="#modules"><img src="https://img.shields.io/badge/modules-2_of_6-B91C4B?style=flat-square" alt="Modules: 2 of 6"></a>
+  <img src="https://img.shields.io/badge/python-3.9%2B-7A0F31?style=flat-square&logo=python&logoColor=white" alt="Python 3.9+">
+  <img src="https://img.shields.io/badge/level-foundation_→_intermediate-4D091E?style=flat-square" alt="Level: foundation to intermediate">
+  <a href="https://daldata.ai"><img src="https://img.shields.io/badge/daldata.ai-visit-B91C4B?style=flat-square" alt="daldata.ai"></a>
+</p>
 
-> **Students:** start with [Getting started](#getting-started), then work through the modules in order.
-> **TAs and contributors:** read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
+<p align="center">
+  <b>Hands-on notebooks that take you from raw data to production-grade data systems.</b><br>
+  Every module pairs clear concepts with runnable code, real production notes, a lab, and a checkpoint.
+</p>
+
+<p align="center">
+  <a href="#modules">Modules</a> ·
+  <a href="#get-started">Get started</a> ·
+  <a href="#how-each-module-works">How modules work</a> ·
+  <a href="CONTRIBUTING.md">Contribute</a>
+</p>
+
+---
 
 ## Modules
 
-| # | Module | What you'll learn |
-|---|--------|-------------------|
-| 01 | [Data Foundations & Data Types](modules/01-data-foundations/) | Structured vs semi-structured vs unstructured data, dtypes, profiling, data quality, schema evolution, data contracts |
-| 02 | [Data Processing Architectures](modules/02-processing-architectures/) | Batch, micro-batch, streaming, event time, windowing, state, idempotency, backpressure |
-| 03 | _Coming soon_ | |
-| 04 | _Coming soon_ | |
-| 05 | _Coming soon_ | |
-| 06 | _Coming soon_ | |
+| | Module | What you'll learn | Level | Open |
+|:-:|---|---|---|:-:|
+| **01** | [**Data Foundations & Data Types**](modules/01-data-foundations/) | Data forms, dtypes vs business meaning, profiling, data quality, schema evolution, data contracts | Foundation | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hanoufalmogri/Dal-Academy-Content/blob/main/modules/01-data-foundations/01-data-foundations.ipynb) |
+| **02** | [**Data Processing Architectures**](modules/02-processing-architectures/) | Batch, micro-batch, streaming, event time, windows, state, idempotency, backpressure | Intermediate | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hanoufalmogri/Dal-Academy-Content/blob/main/modules/02-processing-architectures/02-processing-architectures.ipynb) |
+| **03** | _Coming soon_ | | | |
+| **04** | _Coming soon_ | | | |
+| **05** | _Coming soon_ | | | |
+| **06** | _Coming soon_ | | | |
 
-Each module folder has a `README.md` with its learning objectives and a notebook you can run.
+### Learning path
 
-## Getting started
+```mermaid
+flowchart LR
+    M1["01 · Data Foundations"] --> M2["02 · Processing Architectures"] --> M3["03 · Coming soon"] --> M4["04 · Coming soon"] --> M5["05 · Coming soon"] --> M6["06 · Coming soon"]
+    classDef live fill:#B91C4B,stroke:#7A0F31,color:#FFFFFF,font-weight:bold
+    classDef soon fill:#F8E9EE,stroke:#E8D9DE,color:#6F6268
+    class M1,M2 live
+    class M3,M4,M5,M6 soon
+```
 
-You can read every notebook directly on GitHub: just click it. To run the code yourself, choose one of these options:
+## Get started
 
-### Option A: Google Colab (no install)
+**Fastest way:** click **Open in Colab** next to any module. It runs in your browser with nothing to install.
 
-Open a notebook on GitHub, then replace `github.com` in the URL with `githubtocolab.com`. Colab already includes everything these notebooks need.
+<details>
+<summary><b>Prefer to run locally?</b></summary>
 
-### Option B: Run locally
+<br>
 
 You'll need Python 3.9 or newer.
 
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/hanoufalmogri/Dal-Academy-Content.git
 cd Dal-Academy-Content
 python3 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
@@ -41,18 +67,27 @@ jupyter lab
 
 All datasets are generated inside the notebooks, so nothing needs to be downloaded.
 
-## Repository layout
+</details>
 
-```
-modules/
-  01-data-foundations/
-    README.md                     ← module overview & objectives
-    01-data-foundations.ipynb     ← the main notebook
-  02-processing-architectures/
-  _template/                      ← starting point for new modules (contributors)
-scripts/                          ← automated content checks
-```
+## How each module works
 
-## Found a mistake or have a question?
+Every notebook follows the same rhythm, so you always know where you are:
 
-[Open an issue](../../issues/new/choose) and pick **Content error** or **Question**. Include the module number and section.
+| Step | What happens |
+|---|---|
+| 🎯 **Objectives** | What you'll be able to do by the end |
+| 💡 **Concept** | The idea in plain language, with terms defined |
+| 🧪 **Demonstration** | Runnable code on reproducible data |
+| 🏭 **Production note** | How it shows up in real systems, and the common mistakes |
+| 🛠️ **Lab** | A hands-on task you build yourself |
+| ✅ **Checkpoint** | Questions to confirm you've got it |
+
+## Questions or found a mistake?
+
+[Open an issue](https://github.com/hanoufalmogri/Dal-Academy-Content/issues/new/choose) and pick **Content error** or **Question**. Include the module number and section.
+
+---
+
+<p align="center">
+  <sub><b>DAL | دال</b> · Guiding a generation of data leaders · <a href="https://daldata.ai">daldata.ai</a></sub>
+</p>

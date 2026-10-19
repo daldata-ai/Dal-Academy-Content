@@ -2,9 +2,11 @@
 
 Batch, micro-batch, streaming, state, windows, latency, and reliability.
 
-**Notebook:** [02-processing-architectures.ipynb](02-processing-architectures.ipynb)
-**Level:** Intermediate
-**Prerequisites:** [01 · Data Foundations & Data Types](../01-data-foundations/)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hanoufalmogri/Dal-Academy-Content/blob/main/modules/02-processing-architectures/02-processing-architectures.ipynb)
+
+| Notebook | Level | Prerequisites |
+|---|---|---|
+| [02-processing-architectures.ipynb](02-processing-architectures.ipynb) | Intermediate | [01 · Data Foundations & Data Types](../01-data-foundations/) |
 
 ## What you will be able to do
 

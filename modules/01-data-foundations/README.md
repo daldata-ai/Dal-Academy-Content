@@ -2,9 +2,11 @@
 
 From raw records to reliable analytical representations.
 
-**Notebook:** [01-data-foundations.ipynb](01-data-foundations.ipynb)
-**Level:** Foundation → Intermediate
-**Prerequisites:** basic Python and an introduction to pandas
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hanoufalmogri/Dal-Academy-Content/blob/main/modules/01-data-foundations/01-data-foundations.ipynb)
+
+| Notebook | Level | Prerequisites |
+|---|---|---|
+| [01-data-foundations.ipynb](01-data-foundations.ipynb) | Foundation → Intermediate | basic Python and an introduction to pandas |
 
 ## What you will be able to do
 

@@ -35,7 +35,13 @@ modules/03-data-modeling/
   exercises/                 # optional: extra practice notebooks
 ```
 
-To start a new module, copy `modules/_template/`, rename the folder and the notebook, and add a row to the module table in the root [README.md](README.md).
+To start a new module, copy `modules/_template/` and rename the folder and the notebook. Then update the root [README.md](README.md):
+
+- Fill in the module's row in the table, including its **Open in Colab** badge. Copy the badge from an existing row and change the path.
+- In the learning-path diagram, move the module from `class … soon` to `class … live`.
+- Update the `modules-N_of_6` badge at the top.
+
+Add the same Colab badge under the subtitle in the module's own `README.md`.
 
 ## Notebook conventions
 
