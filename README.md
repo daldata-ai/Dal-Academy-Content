@@ -3,13 +3,6 @@
 </p>
 
 <p align="center">
-  <a href="#modules"><img src="https://img.shields.io/badge/modules-2_of_6-B91C4B?style=flat-square" alt="Modules: 2 of 6"></a>
-  <img src="https://img.shields.io/badge/python-3.9%2B-7A0F31?style=flat-square&logo=python&logoColor=white" alt="Python 3.9+">
-  <img src="https://img.shields.io/badge/level-foundation_→_intermediate-4D091E?style=flat-square" alt="Level: foundation to intermediate">
-  <a href="https://daldata.ai"><img src="https://img.shields.io/badge/daldata.ai-visit-B91C4B?style=flat-square" alt="daldata.ai"></a>
-</p>
-
-<p align="center">
   <b>Hands-on notebooks that take you from raw data to production-grade data systems.</b><br>
   Every module pairs clear concepts with runnable code, real production notes, a lab, and a checkpoint.
 </p>
@@ -18,32 +11,37 @@
   <a href="#modules">Modules</a> ·
   <a href="#get-started">Get started</a> ·
   <a href="#how-each-module-works">How modules work</a> ·
-  <a href="CONTRIBUTING.md">Contribute</a>
+  <a href="#questions-or-found-a-mistake">Questions</a>
 </p>
 
 ---
 
-## Modules
-
-| | Module | What you'll learn | Level | Open |
-|:-:|---|---|---|:-:|
-| **01** | [**Data Foundations & Data Types**](modules/01-data-foundations/) | Data forms, dtypes vs business meaning, profiling, data quality, schema evolution, data contracts | Foundation | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hanoufalmogri/Dal-Academy-Content/blob/main/modules/01-data-foundations/01-data-foundations.ipynb) |
-| **02** | [**Data Processing Architectures**](modules/02-processing-architectures/) | Batch, micro-batch, streaming, event time, windows, state, idempotency, backpressure | Intermediate | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hanoufalmogri/Dal-Academy-Content/blob/main/modules/02-processing-architectures/02-processing-architectures.ipynb) |
-| **03** | _Coming soon_ | | | |
-| **04** | _Coming soon_ | | | |
-| **05** | _Coming soon_ | | | |
-| **06** | _Coming soon_ | | | |
-
-### Learning path
+## Learning path
 
 ```mermaid
 flowchart LR
-    M1["01 · Data Foundations"] --> M2["02 · Processing Architectures"] --> M3["03 · Coming soon"] --> M4["04 · Coming soon"] --> M5["05 · Coming soon"] --> M6["06 · Coming soon"]
+    P1["Phase 1 · Foundation"]
+    P2["Phase 2 · Engineering · Coming soon"]
+    P3["Phase 3 · Dal Academy Fellowship · Coming soon"]
+    P1 --> P2 --> P3
     classDef live fill:#B91C4B,stroke:#7A0F31,color:#FFFFFF,font-weight:bold
     classDef soon fill:#F8E9EE,stroke:#E8D9DE,color:#6F6268
-    class M1,M2 live
-    class M3,M4,M5,M6 soon
+    class P1 live
+    class P2,P3 soon
 ```
+
+## Modules
+
+### [Phase 1 · Foundation](phases/phase-1/)
+
+Data foundations and processing architectures.
+
+| | Module | What you'll learn | Level | Open |
+|:-:|---|---|---|:-:|
+| **01** | [**Data Foundations & Data Types**](phases/phase-1/01-data-foundations/) | Data forms, dtypes vs business meaning, profiling, data quality, schema evolution, data contracts | Foundation | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hanoufalmogri/Dal-Academy-Content/blob/main/phases/phase-1/01-data-foundations/01-data-foundations.ipynb) |
+| **02** | [**Data Processing Architectures**](phases/phase-1/02-processing-architectures/) | Batch, micro-batch, streaming, event time, windows, state, idempotency, backpressure | Intermediate | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hanoufalmogri/Dal-Academy-Content/blob/main/phases/phase-1/02-processing-architectures/02-processing-architectures.ipynb) |
+
+New modules are released here as they're ready.
 
 ## Get started
 

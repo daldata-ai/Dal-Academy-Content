@@ -2,7 +2,7 @@
 
 Batch, micro-batch, streaming, state, windows, latency, and reliability.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hanoufalmogri/Dal-Academy-Content/blob/main/modules/02-processing-architectures/02-processing-architectures.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hanoufalmogri/Dal-Academy-Content/blob/main/phases/phase-1/02-processing-architectures/02-processing-architectures.ipynb)
 
 | Notebook | Level | Prerequisites |
 |---|---|---|

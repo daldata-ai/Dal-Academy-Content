@@ -2,7 +2,7 @@
 
 From raw records to reliable analytical representations.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hanoufalmogri/Dal-Academy-Content/blob/main/modules/01-data-foundations/01-data-foundations.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hanoufalmogri/Dal-Academy-Content/blob/main/phases/phase-1/01-data-foundations/01-data-foundations.ipynb)
 
 | Notebook | Level | Prerequisites |
 |---|---|---|
