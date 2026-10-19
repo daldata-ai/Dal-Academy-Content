@@ -1,0 +1,12 @@
+# Normalize line endings across macOS, Windows and Linux contributors
+* text=auto eol=lf
+
+*.ipynb text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.pptx binary
+*.xlsx binary
+*.parquet binary

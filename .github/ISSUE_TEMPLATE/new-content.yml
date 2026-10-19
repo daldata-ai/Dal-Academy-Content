@@ -1,0 +1,26 @@
+name: New content proposal (TAs)
+description: Propose a new module, section, lab, or resource
+labels: ["new-content"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Proposed title
+    validations:
+      required: true
+  - type: input
+    id: module
+    attributes:
+      label: Where does it fit?
+      placeholder: "New module 03, or a section in module 02"
+  - type: textarea
+    id: objectives
+    attributes:
+      label: Learning objectives
+      description: What will students be able to do afterwards?
+    validations:
+      required: true
+  - type: textarea
+    id: outline
+    attributes:
+      label: Rough outline

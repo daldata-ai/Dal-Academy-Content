@@ -1,0 +1,18 @@
+name: Question
+description: Ask about a concept or exercise in a module
+labels: ["question"]
+body:
+  - type: input
+    id: module
+    attributes:
+      label: Module
+      placeholder: "e.g. 01 · Data Foundations"
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What did you try, and where did you get stuck?
+    validations:
+      required: true

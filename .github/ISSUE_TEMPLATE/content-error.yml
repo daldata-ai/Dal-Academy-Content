@@ -1,0 +1,27 @@
+name: Content error
+description: Report a mistake, typo, broken link, or code that doesn't run
+labels: ["content-error"]
+body:
+  - type: input
+    id: module
+    attributes:
+      label: Module
+      placeholder: "e.g. 02 · Data Processing Architectures"
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section or cell
+      placeholder: "e.g. 5. Windowing, second code cell"
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+      description: Include the error message if code fails to run.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix (optional)
