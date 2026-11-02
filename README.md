@@ -20,14 +20,14 @@
 
 ```mermaid
 flowchart LR
-    P1["Phase 1 · Foundation"]
-    P2["Phase 2 · Engineering · Coming soon"]
-    P3["Phase 3 · Dal Academy Fellowship · Coming soon"]
-    P1 --> P2 --> P3
+    M1["01 · Data Foundations & Data Types"]
+    M2["02 · Data Processing Architectures"]
+    SOON["More modules · Coming soon"]
+    M1 --> M2 --> SOON
     classDef live fill:#B91C4B,stroke:#7A0F31,color:#FFFFFF,font-weight:bold
     classDef soon fill:#F8E9EE,stroke:#E8D9DE,color:#6F6268
-    class P1 live
-    class P2,P3 soon
+    class M1,M2 live
+    class SOON soon
 ```
 
 ## Modules
