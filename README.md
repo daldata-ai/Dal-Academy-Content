@@ -16,30 +16,9 @@
 
 ---
 
-## Learning path
-
-```mermaid
-flowchart LR
-    M1["01 · Data Foundations & Data Types"]
-    M2["02 · Data Processing Architectures"]
-    SOON["More modules · Coming soon"]
-    M1 --> M2 --> SOON
-    classDef live fill:#B91C4B,stroke:#7A0F31,color:#FFFFFF,font-weight:bold
-    classDef soon fill:#F8E9EE,stroke:#E8D9DE,color:#6F6268
-    class M1,M2 live
-    class SOON soon
-```
-
 ## Modules
 
-### [Phase 1 · Foundation](phases/phase-1/)
-
-Data foundations and processing architectures.
-
-| | Module | What you'll learn | Level | Open |
-|:-:|---|---|---|:-:|
-| **01** | [**Data Foundations & Data Types**](phases/phase-1/01-data-foundations/) | Data forms, dtypes vs business meaning, profiling, data quality, schema evolution, data contracts | Foundation | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/daldata-ai/Dal-Academy-Content/blob/main/phases/phase-1/01-data-foundations/01-data-foundations.ipynb) |
-| **02** | [**Data Processing Architectures**](phases/phase-1/02-processing-architectures/) | Batch, micro-batch, streaming, event time, windows, state, idempotency, backpressure | Intermediate | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/daldata-ai/Dal-Academy-Content/blob/main/phases/phase-1/02-processing-architectures/02-processing-architectures.ipynb) |
+_The first modules are coming soon. Watch this repo to be notified when they're released._
 
 New modules are released here as they're ready.
 
